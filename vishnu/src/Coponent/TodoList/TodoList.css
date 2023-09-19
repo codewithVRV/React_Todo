@@ -7,6 +7,7 @@
     margin: 10px auto;
     align-items: center;
     border-radius: 14px;
+    padding: 0 10px;
 }
 
 .btn-2 {
@@ -26,3 +27,23 @@
     display: flex;
     gap: 10px;
 }
+
+
+@media (max-width: 575.98px) { 
+
+    .todolist-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin: 10px auto;
+        align-items: center;
+        border-radius: 14px;
+        padding: 0 20px;
+    }
+    .btn-wrapper {
+        margin-right: 10px;
+    }
+
+   
+    
+ }
